@@ -1,4 +1,4 @@
-module github.com/parthvinchhi/daily-data.github.io
+module github.com/parthvinchhi/daily-data
 
 go 1.20
 

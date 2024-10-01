@@ -10,7 +10,7 @@ import (
 func main() {
 	r := gin.Default()
 
-	r.LoadHTMLFiles("templates/index.html")
+	r.LoadHTMLFiles("index.html")
 
 	r.GET("/", func(ctx *gin.Context) {
 		ctx.HTML(http.StatusOK, "index.html", nil)
